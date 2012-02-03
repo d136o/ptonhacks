@@ -1,0 +1,79 @@
+html {
+    background: url("../images/large_circuit.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+
+body {
+    font: 1em monospace;
+    color: white;
+    width: 60%;
+    height: 100%;
+    text-align: justify;
+    margin: auto;
+}
+
+div#container {
+    position: relative; /* needed for footer positioning*/
+    margin: 0 auto; /* center, not in IE5 */
+ 
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6: treaded as min-height*/
+    min-height: 100%; /* real browsers */
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.menu_item_inactive a {
+    font-weight: bold;
+    color: white;
+    
+    background-color: rgba(0,0,0,.5);
+    text-decoration: none;
+    padding: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: .2em;
+}
+
+.menu_item_active {
+    font-weight: bold;
+    color: #F0F0F0;
+    
+    background-color: rgba(0,0,0,.5);
+    text-decoration: none;
+    padding: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: .2em;
+}
+
+.content {
+
+    background-color: rgba(0,0,0,.75);
+    border-radius: .5em;
+    border-width: thin;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgba(220,220,220,1);
+
+}
+
+footer{
+    text-align: center;
+}
+
+.footer_info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

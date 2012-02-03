@@ -1,0 +1,10 @@
+---
+title: About
+layout: layout
+---
+
+The hackaton is made possible by the Keller Center and the Norman D. Kurtz '58 Fund for Innovation in Engineering Education.
+
+Serious thanks to the Keller Center, for providing the means by which we can be curious.
+
+If you have any questions, comments, or if you want to help organize this reach out to info [a t] ptonhacks [d o t] net

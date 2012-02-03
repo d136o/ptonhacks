@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Diego Vargas" />
+    
+    <link rel="stylesheet"
+	  type="text/css"
+	  href="/stylesheets/ptonhacks.css"
+	  title="ptonhacks style sheet">
+
+    <!--link rel="icon"
+	  type="image/jpeg" 
+	  href="/images/favicon.jpeg"-->
+
+    <!-- background image from -->
+    <!-- http://www.flickr.com/photos/downhilldom1984/6032237502/ -->
+
+    <title>{{ page.title }}</title>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-28569352-1']);
+      _gaq.push(['_setDomainName', 'ptonhacks.net']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+  </head>
+
+  <body>
+    <div id='container'>
+
+    <header>
+      <nav>
+
+      <!--img src='/images/ptonhacks_banner.gif'-->
+
+      <div name='menu_bar'>
+
+      {% if page.title == 'Home' %}
+      <span class='menu_item_active'><a href='/'>ptonhacks</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/'>ptonhacks</a></span>
+      {% endif %}
+
+      {% if page.title == 'Projects' %}
+      <span class='menu_item_active'><a href='/projects.html'>Projects</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/projects.html'>Projects</a></span>
+      {% endif %}
+
+      {% if page.title == 'About' %}
+      <span class='menu_item_active'><a href='/about.html'>About</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/about.html'>About</a></span>
+      {% endif %}
+      
+      </div>
+      </nav>
+
+    </header>
+    
+    <div class='content'>
+    {{ content }}
+    </div>
+    
+    <footer>
+      <div class='footer_info'>
+      <p><a href="http://github.com/d136o/ptonhacks">source</a></p>
+      </div>
+    </footer>
+
+    </div>
+  </body>
+</html>
