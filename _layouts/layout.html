@@ -52,10 +52,18 @@
       <span class='menu_item_inactive'><a href='/'>ptonhacks</a></span>
       {% endif %}
 
+{% comment %}
       {% if page.title == 'Projects' %}
       <span class='menu_item_active'><a href='/projects.html'>Projects</a></span>
       {% else  %}
       <span class='menu_item_inactive'><a href='/projects.html'>Projects</a></span>
+      {% endif %}
+{% endcomment %}
+
+      {% if page.title == 'Inspiration' %}
+      <span class='menu_item_active'><a href='/inspiration.html'>Inspiration</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/inspiration.html'>Inspiration</a></span>
       {% endif %}
 
       {% if page.title == 'About' %}

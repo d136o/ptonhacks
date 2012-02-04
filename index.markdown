@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: Diego
+title: ptonhacks.net
 ---
 
 Princeton's First Hardware Hackathon.
