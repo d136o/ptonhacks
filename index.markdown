@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: ptonhacks.net
+title: ptonhacks
 ---
 
 Princeton's First Hardware Hackathon.
